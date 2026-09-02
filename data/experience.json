@@ -1,0 +1,141 @@
+{
+  "heading": "Professional Journey",
+  "subtitle": "Transforming ideas into digital reality, one project at a time",
+  "positions": [
+    {
+      "title": "Full Stack Web Developer",
+      "company": "DXC Technology | USA",
+      "location": "",
+      "startDate": "2026",
+      "endDate": "Present",
+      "description": "Developed enterprise-grade full-stack web applications by building responsive interfaces using React.js, HTML5, CSS3, and JavaScript (ES6) while implementing scalable backend services with Java, Spring Boot, Hibernate, and REST APIs, accelerating feature delivery by 30%.\nEngineered secure and high-performance backend solutions by designing RESTful APIs, implementing business logic with Spring Data JPA and Hibernate, and optimizing MySQL queries, reducing API response time by 25% while improving application scalability.\nIntegrated enterprise authentication and third-party services by implementing JWT, consuming REST APIs, and utilizing Git, Maven, and Postman for development and validation, decreasing integration defects by 20% and strengthening application security.\nCollaborated with cross-functional Agile teams by participating in sprint planning, peer code reviews, JUnit testing, and Jenkins-based CI/CD deployments using Git, improving release stability and reducing production issues by 30%.",
+      "achievements": [
+        "Developed enterprise-grade full-stack web applications by building responsive interfaces using React.js, HTML5, CSS3, and JavaScript (ES6) while implementing scalable backend services with Java, Spring Boot, Hibernate, and REST APIs, accelerating feature delivery by 30%.",
+        "Engineered secure and high-performance backend solutions by designing RESTful APIs, implementing business logic with Spring Data JPA and Hibernate, and optimizing MySQL queries, reducing API response time by 25% while improving application scalability.",
+        "Integrated enterprise authentication and third-party services by implementing JWT, consuming REST APIs, and utilizing Git, Maven, and Postman for development and validation, decreasing integration defects by 20% and strengthening application security.",
+        "Collaborated with cross-functional Agile teams by participating in sprint planning, peer code reviews, JUnit testing, and Jenkins-based CI/CD deployments using Git, improving release stability and reducing production issues by 30%."
+      ],
+      "technologies": [
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ES6",
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "REST APIs",
+        "Spring Data JPA",
+        "MySQL",
+        "JWT",
+        "Git",
+        "Maven",
+        "Postman",
+        "JUnit",
+        "Jenkins",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Full Stack Web Developer",
+      "company": "Trivedi Advanced Technologies LLC | India",
+      "location": "",
+      "startDate": "2023",
+      "endDate": "2024",
+      "description": "Delivered scalable enterprise web features by developing responsive user interfaces with Angular, TypeScript, HTML5, CSS3, and implementing backend services using Node.js, Express.js, and REST APIs, increasing active user adoption by 33% while reducing support tickets by 15%.\nEngineered secure and high-performance backend APIs by designing business logic with Node.js, Express.js, and comprehensive Unit Testing, improving production reliability and reducing API-related defects by 20%.\nIntegrated cloud-native application services by connecting frontend modules through AWS API Gateway, optimizing SQL and Amazon DynamoDB queries, eliminating data retrieval bottlenecks and improving API response times by 30% under growing workloads.\nImplemented centralized application monitoring by configuring Splunk dashboards to track logs, exceptions, and service health across distributed applications, reducing production issue investigation time by 25% and accelerating root cause analysis.\nModernized backend architecture by prototyping scalable services using Java, Spring Boot, and REST APIs, validating the migration strategy for future enterprise applications while supporting Agile sprint commitments and on-time feature delivery.",
+      "achievements": [
+        "Delivered scalable enterprise web features by developing responsive user interfaces with Angular, TypeScript, HTML5, CSS3, and implementing backend services using Node.js, Express.js, and REST APIs, increasing active user adoption by 33% while reducing support tickets by 15%.",
+        "Engineered secure and high-performance backend APIs by designing business logic with Node.js, Express.js, and comprehensive Unit Testing, improving production reliability and reducing API-related defects by 20%.",
+        "Integrated cloud-native application services by connecting frontend modules through AWS API Gateway, optimizing SQL and Amazon DynamoDB queries, eliminating data retrieval bottlenecks and improving API response times by 30% under growing workloads.",
+        "Implemented centralized application monitoring by configuring Splunk dashboards to track logs, exceptions, and service health across distributed applications, reducing production issue investigation time by 25% and accelerating root cause analysis.",
+        "Modernized backend architecture by prototyping scalable services using Java, Spring Boot, and REST APIs, validating the migration strategy for future enterprise applications while supporting Agile sprint commitments and on-time feature delivery."
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "AWS API Gateway",
+        "SQL",
+        "Amazon DynamoDB",
+        "Splunk",
+        "Java",
+        "Spring Boot"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Trivedi Advanced Technologies LLC | India",
+      "location": "",
+      "startDate": "2022",
+      "endDate": "2023",
+      "description": "Architected distributed microservices by leveraging Docker, Apache Kafka, Redis, and RabbitMQ, replacing monolithic application components, reducing database load by 35%, and improving performance for high-volume enterprise transactions.\nMigrated backend workloads to cloud-native infrastructure using AWS Lambda, API Gateway, Amazon S3, Amazon DynamoDB, Cassandra, and SQL, improving deployment efficiency while lowering infrastructure management overhead.\nDesigned responsive and cross-browser web interfaces using Angular, TypeScript, HTML5, Bootstrap, and reusable UI components, improving application consistency and minimizing frontend code duplication across enterprise modules.\nStrengthened software quality by conducting peer code reviews, collaborating with frontend and QA teams throughout Agile Scrum sprints, and enforcing engineering standards that reduced post-release defects and improved release stability.\nOptimized production performance by monitoring distributed applications through Splunk, analyzing system metrics, and resolving backend bottlenecks before customer impact, decreasing production incidents by 20%.\nAutomated enterprise deployment pipelines by implementing Jenkins, Git, and CI/CD workflows for build, testing, and release automation, shortening release cycles by 40% and improving deployment consistency across environments.",
+      "achievements": [
+        "Architected distributed microservices by leveraging Docker, Apache Kafka, Redis, and RabbitMQ, replacing monolithic application components, reducing database load by 35%, and improving performance for high-volume enterprise transactions.",
+        "Migrated backend workloads to cloud-native infrastructure using AWS Lambda, API Gateway, Amazon S3, Amazon DynamoDB, Cassandra, and SQL, improving deployment efficiency while lowering infrastructure management overhead.",
+        "Designed responsive and cross-browser web interfaces using Angular, TypeScript, HTML5, Bootstrap, and reusable UI components, improving application consistency and minimizing frontend code duplication across enterprise modules.",
+        "Strengthened software quality by conducting peer code reviews, collaborating with frontend and QA teams throughout Agile Scrum sprints, and enforcing engineering standards that reduced post-release defects and improved release stability.",
+        "Optimized production performance by monitoring distributed applications through Splunk, analyzing system metrics, and resolving backend bottlenecks before customer impact, decreasing production incidents by 20%.",
+        "Automated enterprise deployment pipelines by implementing Jenkins, Git, and CI/CD workflows for build, testing, and release automation, shortening release cycles by 40% and improving deployment consistency across environments."
+      ],
+      "technologies": [
+        "Docker",
+        "Apache Kafka",
+        "Redis",
+        "RabbitMQ",
+        "AWS Lambda",
+        "API Gateway",
+        "Amazon S3",
+        "Amazon DynamoDB",
+        "Cassandra",
+        "SQL",
+        "Angular",
+        "TypeScript",
+        "HTML5",
+        "Bootstrap",
+        "Splunk",
+        "Jenkins",
+        "Git",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Cybage Software | India",
+      "location": "",
+      "startDate": "2020",
+      "endDate": "2021",
+      "description": "Built responsive enterprise web applications by developing user interfaces with React.js, HTML5, CSS3, and JavaScript (ES6) while implementing backend functionality using Java, Spring Boot, and REST APIs, accelerating feature delivery across Agile releases.\nCreated scalable backend components by developing RESTful APIs, implementing business logic with Spring Data JPA, Hibernate, and MySQL, improving data processing efficiency and reducing application response time by 22%.\nConfigured continuous integration workflows by managing source control with Git, automating builds through Maven and Jenkins, and supporting CI/CD deployments, improving release consistency and reducing manual deployment effort by 30%.\nValidated application quality by designing JUnit test cases, performing API verification with Postman, and resolving functional defects identified during sprint cycles, improving software stability and reducing production defects by 25%.\nMaintained enterprise applications by troubleshooting production issues, optimizing existing code, and collaborating with cross-functional Agile Scrum teams using JIRA, improving application reliability while ensuring timely delivery of customer enhancements.",
+      "achievements": [
+        "Built responsive enterprise web applications by developing user interfaces with React.js, HTML5, CSS3, and JavaScript (ES6) while implementing backend functionality using Java, Spring Boot, and REST APIs, accelerating feature delivery across Agile releases.",
+        "Created scalable backend components by developing RESTful APIs, implementing business logic with Spring Data JPA, Hibernate, and MySQL, improving data processing efficiency and reducing application response time by 22%.",
+        "Configured continuous integration workflows by managing source control with Git, automating builds through Maven and Jenkins, and supporting CI/CD deployments, improving release consistency and reducing manual deployment effort by 30%.",
+        "Validated application quality by designing JUnit test cases, performing API verification with Postman, and resolving functional defects identified during sprint cycles, improving software stability and reducing production defects by 25%.",
+        "Maintained enterprise applications by troubleshooting production issues, optimizing existing code, and collaborating with cross-functional Agile Scrum teams using JIRA, improving application reliability while ensuring timely delivery of customer enhancements."
+      ],
+      "technologies": [
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ES6",
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "Spring Data JPA",
+        "Hibernate",
+        "MySQL",
+        "Git",
+        "Maven",
+        "Jenkins",
+        "CI/CD",
+        "JUnit",
+        "Postman",
+        "JIRA"
+      ]
+    }
+  ]
+}

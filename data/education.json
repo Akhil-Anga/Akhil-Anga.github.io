@@ -1,0 +1,33 @@
+{
+  "heading": "Educational Journey",
+  "subtitle": "Discover how academic excellence shapes innovative thinking and professional growth.",
+  "entries": [
+    {
+      "degree": "Master of Science in Engineering Science",
+      "institution": "University at Buffalo, NY, USA",
+      "field": "Data Science",
+      "startDate": "2025",
+      "endDate": "2026",
+      "gpa": "",
+      "description": "",
+      "achievements": [],
+      "skills": []
+    },
+    {
+      "degree": "Bachelor of Technology",
+      "institution": "Sagi Ramakrishnam Raju Engineering College, Andhra University, Visakhapatnam, India",
+      "field": "Computer Science",
+      "startDate": "2017",
+      "endDate": "2020",
+      "gpa": "",
+      "description": "",
+      "achievements": [],
+      "skills": []
+    }
+  ],
+  "certifications": [
+    "Complete Data Science and Machine Learning",
+    "Analyzing and Visualizing Data with Microsoft Power BI",
+    "R Software"
+  ]
+}

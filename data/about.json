@@ -1,0 +1,24 @@
+{
+  "heading": "About Me",
+  "roles": "Full Stack Developer, Full Stack Web Developer, Senior Software Engineer, Software Engineer",
+  "bio": [
+    "Full Stack Developer with 5 years of experience designing and delivering scalable enterprise applications using Java, Spring Boot, Python, React.js, Angular, Node.js, REST APIs, SQL, and AWS. Experienced in developing cloud-native applications, microservices, and responsive web solutions while optimizing performance, security, and system scalability.",
+    "Strong expertise in Agile development, API integration, and cross-functional collaboration to deliver reliable, high-quality software solutions for enterprise environments."
+  ],
+  "quote": "I'm a lifelong learner and innovator, driven by a desire to contribute with new ideas and tools that deliver real value.",
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "4+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "3+"
+    },
+    {
+      "label": "Technologies",
+      "value": "61+"
+    }
+  ],
+  "avatarUrl": ""
+}

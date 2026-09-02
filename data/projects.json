@@ -1,0 +1,221 @@
+{
+  "heading": "Featured Projects",
+  "projects": [
+    {
+      "name": "Enterprise Customer Management Platform",
+      "description": "Designed a scalable enterprise customer management platform by developing responsive interfaces with React.js and secure backend services using Java, Spring Boot, and REST APIs, improving application responsiveness and user productivity. Implemented JWT authentication, role-based access control, and optimized MySQL queries while containerizing services with Docker and deploying on AWS, enhancing security, scalability, and deployment efficiency.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "MySQL",
+        "REST APIs",
+        "JWT",
+        "Docker",
+        "AWS"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#5196fd"
+    },
+    {
+      "name": "Cloud-Based Order Processing System",
+      "description": "Developed a cloud-native order processing system using Spring Boot microservices, AWS Lambda, API Gateway, and DynamoDB, enabling reliable transaction processing across distributed services. Integrated asynchronous communication with Apache Kafka and optimized service interactions through REST APIs, improving system scalability, fault tolerance, and processing performance.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "AWS Lambda",
+        "API Gateway",
+        "DynamoDB",
+        "Kafka"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#8f89ff"
+    },
+    {
+      "name": "Enterprise Employee Portal",
+      "description": "Built a responsive employee self-service portal using Angular, TypeScript, Node.js, and Express.js, streamlining employee profile management and internal business workflows. Automated build and deployment processes using Jenkins, Git, and CI/CD while implementing comprehensive API validation with Postman, improving release quality and reducing deployment effort.",
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Jenkins",
+        "Git"
+      ],
+      "imageUrl": "",
+      "liveUrl": "",
+      "githubUrl": "",
+      "color": "#34d399"
+    },
+    {
+      "name": "DMQL-Project",
+      "description": "Building a DMQL project",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/DMQL-Project",
+      "githubUrl": "https://github.com/Akhil-Anga/DMQL-Project",
+      "color": "#ed649e"
+    },
+    {
+      "name": "pulseboard-ops",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/pulseboard-ops",
+      "githubUrl": "https://github.com/Akhil-Anga/pulseboard-ops",
+      "color": "#f97316"
+    },
+    {
+      "name": "mern-chat-app",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "Dockerfile",
+        "HTML"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/mern-chat-app",
+      "githubUrl": "https://github.com/Akhil-Anga/mern-chat-app",
+      "color": "#facc15"
+    },
+    {
+      "name": "spark-kafka-cassandra-pipeline",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/spark-kafka-cassandra-pipeline",
+      "githubUrl": "https://github.com/Akhil-Anga/spark-kafka-cassandra-pipeline",
+      "color": "#5196fd"
+    },
+    {
+      "name": "mern-ecommerce-rishi",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "JavaScript",
+        "HTML"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/mern-ecommerce-rishi",
+      "githubUrl": "https://github.com/Akhil-Anga/mern-ecommerce-rishi",
+      "color": "#8f89ff"
+    },
+    {
+      "name": "spring-boot-microservices-banking-application",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Java",
+        "Dockerfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/spring-boot-microservices-banking-application",
+      "githubUrl": "https://github.com/Akhil-Anga/spring-boot-microservices-banking-application",
+      "color": "#34d399"
+    },
+    {
+      "name": "agentgate",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/agentgate",
+      "githubUrl": "https://github.com/Akhil-Anga/agentgate",
+      "color": "#ed649e"
+    },
+    {
+      "name": "ecommerce-spring-reactjs",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "TypeScript",
+        "Java",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/ecommerce-spring-reactjs",
+      "githubUrl": "https://github.com/Akhil-Anga/ecommerce-spring-reactjs",
+      "color": "#f97316"
+    },
+    {
+      "name": "real-time-analytics-alerting-engine",
+      "description": "A real-time machine monitoring and alerting platform built with Kafka, Node.js, Redis, PostgreSQL, Docker, and Angular.",
+      "technologies": [
+        "JavaScript",
+        "Python"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/real-time-analytics-alerting-engine",
+      "githubUrl": "https://github.com/Akhil-Anga/real-time-analytics-alerting-engine",
+      "color": "#facc15"
+    },
+    {
+      "name": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/contribution-history",
+      "githubUrl": "https://github.com/Akhil-Anga/contribution-history",
+      "color": "#5196fd"
+    },
+    {
+      "name": "streamledger",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/streamledger",
+      "githubUrl": "https://github.com/Akhil-Anga/streamledger",
+      "color": "#8f89ff"
+    },
+    {
+      "name": "fraud-detection-system",
+      "description": "This project will detect the online credit card frauds.",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/fraud-detection-system",
+      "githubUrl": "https://github.com/Akhil-Anga/fraud-detection-system",
+      "color": "#34d399"
+    },
+    {
+      "name": "Portfolio",
+      "description": "GitHub repository: Portfolio",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/Portfolio",
+      "githubUrl": "https://github.com/Akhil-Anga/Portfolio",
+      "color": "#ed649e"
+    },
+    {
+      "name": "Atari",
+      "description": "GitHub repository: Atari",
+      "technologies": [],
+      "imageUrl": "",
+      "liveUrl": "https://github.com/Akhil-Anga/Atari",
+      "githubUrl": "https://github.com/Akhil-Anga/Atari",
+      "color": "#f97316"
+    }
+  ]
+}

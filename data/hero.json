@@ -1,0 +1,41 @@
+{
+  "greeting": "Hello, I'm",
+  "name": "Venkata Sai Akhil Anga",
+  "roles": [
+    "Full Stack Developer",
+    "Full Stack Web Developer",
+    "Senior Software Engineer"
+  ],
+  "tagline": "Full Stack Developer with 5 years of experience designing and delivering scalable enterprise applications using Java, Spring Boot, Python, React.js, Angular, Node.js, REST APIs, SQL, and AWS. Experienced in developing cloud-native applications, microservices, and responsive web solutions while optimizing performance, security, and system scalability. Strong expertise in Agile development, API integration, and cross-functional collaboration to deliver reliable, high-quality software solutions for enterprise environments.",
+  "ctaPrimary": {
+    "text": "View Projects",
+    "href": "#projects"
+  },
+  "ctaSecondary": {
+    "text": "Get Resume",
+    "href": "#contact"
+  },
+  "codeSnippet": {
+    "filename": "developer.js",
+    "code": "const profile = {\n    name: 'Venkata Sai Akhil Anga',\n    title: 'Full Stack Developer',\n    skills: [\n        'Java', 'Python', 'JavaScript', 'TypeScript', 'SQL', 'React.js', 'Angular', 'HTML5', 'CSS3'\n    ],\n    hardWorker: true,\n    quickLearner: true,\n    problemSolver: true,\n    yearsOfExperience: 4,\n    hireable: function() {\n        return (\n            this.hardWorker &&\n            this.problemSolver &&\n            this.skills.length >= 5\n        );\n    }\n};"
+  },
+  "floatingBadges": [
+    {
+      "text": "UI Magic",
+      "color": "purple"
+    },
+    {
+      "text": "Clean Code",
+      "color": "blue"
+    },
+    {
+      "text": "Innovation",
+      "color": "amber"
+    }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/Akhil-Anga",
+    "linkedin": "https://www.linkedin.com/in/akhil-anga",
+    "email": "venkatasaiakhilanga@gmail.com"
+  }
+}
