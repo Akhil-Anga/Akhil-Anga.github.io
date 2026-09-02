@@ -162,20 +162,32 @@
     setInterval(() => { if (document.visibilityState === 'visible') addSparkle(); }, 300);
   }
 
+  let skillCloudNames = [];
+
   // ---- 3D Icon Cloud ---- //
   function createIconCloud(containerId) {
     const sphere = document.getElementById('iconCloudSphere');
     if (!sphere) return;
 
-    const techNames = [
-      'JS', 'TS', 'React', 'Vue', 'Node', 'Python', 'Go', 'Rust',
-      'HTML', 'CSS', 'Docker', 'AWS', 'Git', 'Linux', 'SQL', 'Redis',
-      'Next.js', 'Express', 'Figma', 'Vercel', 'Firebase', 'GraphQL',
-      'Jest', 'Vite', 'Tailwind', 'Svelte', 'MongoDB', 'K8s'
-    ];
+    // Real stack, taken from skills.json (populated by renderSkills)
+    const shortLabels = {
+      'JavaScript': 'JS', 'TypeScript': 'TS', 'Spring Boot': 'Spring',
+      'Hibernate / JPA': 'JPA', 'Node.js': 'Node', 'Express.js': 'Express',
+      'REST APIs': 'REST', 'Apache Kafka': 'Kafka', 'React.js': 'React',
+      'Tailwind CSS': 'Tailwind', 'Amazon DynamoDB': 'DynamoDB',
+      'Amazon EC2': 'EC2', 'Amazon S3': 'S3', 'API Gateway': 'API GW',
+      'CI/CD Pipelines': 'CI/CD', 'Event-Driven Architecture': 'Event-Driven',
+      'Distributed Systems': 'Distributed',
+    };
+    const techNames = (skillCloudNames.length
+      ? skillCloudNames
+      : ['Java', 'Spring Boot', 'React.js', 'AWS Lambda', 'SQL']
+    ).map(n => shortLabels[n] || n);
 
     const count = techNames.length;
-    const radius = 160;
+    // Fit the sphere to its stage so pills are not clipped on narrow screens.
+    const stageWidth = document.getElementById(containerId)?.getBoundingClientRect().width || 380;
+    const radius = Math.max(110, Math.min(210, 150 + count * 1.5, stageWidth / 2 - 60));
 
     techNames.forEach((name, i) => {
       // Fibonacci sphere distribution
@@ -189,7 +201,7 @@
       const item = document.createElement('div');
       item.className = 'icon-cloud-item';
       item.textContent = name;
-      item.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`;
+      item.style.transform = `translate(-50%, -50%) translate3d(${x}px, ${y}px, ${z}px)`;
       sphere.appendChild(item);
     });
 
@@ -360,15 +372,16 @@
     if (!data) return;
     const section = document.getElementById('about');
 
-    section.querySelector('.about-roles').textContent = data.roles || 'About Me';
+    section.querySelector('.about-heading').textContent = data.heading || 'About Me';
 
-    // Image or placeholder
-    const imgWrapper = section.querySelector('.about-image-wrapper');
-    if (data.avatarUrl) {
-      imgWrapper.innerHTML = `<img src="${data.avatarUrl}" alt="Profile photo">`;
-    } else {
-      imgWrapper.innerHTML = '<div class="about-image-placeholder">&lt;/&gt;</div>';
-    }
+    // Roles as chips (deduped, order preserved)
+    const rolesEl = section.querySelector('.about-roles');
+    const roles = Array.isArray(data.roles)
+      ? data.roles
+      : String(data.roles || '').split(',').map(r => r.trim()).filter(Boolean);
+    rolesEl.innerHTML = [...new Set(roles)]
+      .map(r => `<span class="about-role">${r}</span>`)
+      .join('');
 
     // Bio
     const textContainer = section.querySelector('.about-text');
@@ -387,14 +400,12 @@
 
     // Highlights
     const highlightsContainer = section.querySelector('.about-highlights');
-    if (data.highlights) {
-      data.highlights.forEach(h => {
-        const div = document.createElement('div');
-        div.className = 'about-stat';
-        div.innerHTML = `<span class="about-stat-value">${h.value}</span><span class="about-stat-label">${h.label}</span>`;
-        highlightsContainer.appendChild(div);
-      });
-    }
+    (data.highlights || []).forEach(h => {
+      const div = document.createElement('div');
+      div.className = 'about-stat';
+      div.innerHTML = `<span class="about-stat-value">${h.value}</span><span class="about-stat-label">${h.label}</span>`;
+      highlightsContainer.appendChild(div);
+    });
   }
 
   function renderSkills(data) {
@@ -409,35 +420,33 @@
       frontend: 'code', backend: 'server', devops: 'cloud', design: 'palette',
     };
 
-    (data.categories || []).forEach(cat => {
+    // Accepts `groups` (name + items) or the legacy `categories` (name + skills[{name,level}])
+    const groups = data.groups || data.categories || [];
+
+    groups.forEach(group => {
       const card = document.createElement('div');
       card.className = 'skill-card';
 
-      const iconName = iconMap[cat.icon] || iconMap[cat.name?.toLowerCase()?.split(' ')[0]] || 'code';
-      const color = cat.color || '#60a5fa';
+      const iconName = iconMap[group.icon] || 'code';
+      const color = group.color || '#60a5fa';
+      const items = (group.items || group.skills || [])
+        .map(item => (typeof item === 'object' ? item.name : item))
+        .filter(Boolean);
 
-      let skillsHtml = '';
-      (cat.skills || []).forEach(skill => {
-        const level = typeof skill === 'object' ? skill.level : 80;
-        const name = typeof skill === 'object' ? skill.name : skill;
-        skillsHtml += `
-          <div class="skill-item">
-            <div class="skill-item-header">
-              <span class="skill-item-name">${name}</span>
-              <span class="skill-item-level">${level}%</span>
-            </div>
-            <div class="skill-item-bar">
-              <div class="skill-item-fill" style="--bar-color: ${color}; --bar-color-end: ${color}88; --fill-width: ${level}%;" data-level="${level}"></div>
-            </div>
-          </div>`;
-      });
+      const chipsHtml = items
+        .map(name => `<span class="skill-chip">${name}</span>`)
+        .join('');
 
+      skillCloudNames.push(...items);
+      card.style.setProperty('--skill-accent', color);
       card.innerHTML = `
         <div class="skill-card-header">
           <div class="skill-card-icon" style="color: ${color}">${icon(iconName)}</div>
-          <div class="skill-card-title">${cat.name}</div>
+          <div class="skill-card-title">${group.name}</div>
+          <span class="skill-card-count">${items.length}</span>
         </div>
-        <div class="skill-card-items">${skillsHtml}</div>`;
+        ${group.note ? `<p class="skill-card-note">${group.note}</p>` : ''}
+        <div class="skill-chips">${chipsHtml}</div>`;
 
       grid.appendChild(card);
     });
@@ -481,7 +490,6 @@
             <span class="exp-card-company">${pos.company}</span>
             <span class="exp-card-period">${pos.startDate}${pos.endDate ? ' - ' + pos.endDate : ''}</span>
           </div>
-          <p class="exp-card-description">${pos.description}</p>
           ${achieveHtml}
         </div>`;
 
@@ -776,12 +784,6 @@
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('revealed');
-
-            // Animate skill bars
-            const bars = entry.target.querySelectorAll('.skill-item-fill');
-            bars.forEach(bar => {
-              bar.classList.add('animated');
-            });
           }
         });
       },

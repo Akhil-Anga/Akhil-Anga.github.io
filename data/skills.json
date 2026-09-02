@@ -1,276 +1,85 @@
 {
   "heading": "Skills & Technologies",
-  "categories": [
+  "groups": [
     {
       "name": "Languages",
       "color": "#60a5fa",
       "icon": "code",
-      "skills": [
-        {
-          "name": "Java",
-          "level": 91
-        },
-        {
-          "name": "Python",
-          "level": 82
-        },
-        {
-          "name": "JavaScript",
-          "level": 91
-        },
-        {
-          "name": "TypeScript",
-          "level": 82
-        },
-        {
-          "name": "SQL",
-          "level": 90
-        }
+      "note": "Day-to-day across backend services and browser code.",
+      "items": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL"
       ]
     },
     {
-      "name": "Frameworks",
+      "name": "Backend & APIs",
       "color": "#34d399",
       "icon": "server",
-      "skills": [
-        {
-          "name": "React.js",
-          "level": 90
-        },
-        {
-          "name": "Angular",
-          "level": 75
-        },
-        {
-          "name": "HTML5",
-          "level": 76
-        },
-        {
-          "name": "CSS3",
-          "level": 86
-        },
-        {
-          "name": "Bootstrap",
-          "level": 94
-        },
-        {
-          "name": "Tailwind CSS",
-          "level": 87
-        },
-        {
-          "name": "Redux",
-          "level": 91
-        },
-        {
-          "name": "Node.js",
-          "level": 88
-        },
-        {
-          "name": "Express.js",
-          "level": 81
-        },
-        {
-          "name": "Spring Boot",
-          "level": 82
-        },
-        {
-          "name": "Hibernate/JPA",
-          "level": 94
-        }
+      "note": "Service layers, contracts and asynchronous messaging.",
+      "items": [
+        "Spring Boot",
+        "Hibernate / JPA",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "GraphQL",
+        "Apache Kafka",
+        "RabbitMQ"
       ]
     },
     {
-      "name": "Tools & Platforms",
-      "color": "#f97316",
-      "icon": "cloud",
-      "skills": [
-        {
-          "name": "PostgreSQL",
-          "level": 85
-        },
-        {
-          "name": "MySQL",
-          "level": 80
-        },
-        {
-          "name": "MongoDB",
-          "level": 86
-        },
-        {
-          "name": "Amazon DynamoDB",
-          "level": 88
-        },
-        {
-          "name": "Cassandra",
-          "level": 86
-        },
-        {
-          "name": "Redis",
-          "level": 92
-        },
-        {
-          "name": "AWS Lambda",
-          "level": 82
-        },
-        {
-          "name": "Amazon EC2",
-          "level": 80
-        },
-        {
-          "name": "Amazon S3",
-          "level": 82
-        },
-        {
-          "name": "API Gateway",
-          "level": 89
-        },
-        {
-          "name": "IAM",
-          "level": 79
-        },
-        {
-          "name": "Docker",
-          "level": 86
-        },
-        {
-          "name": "Jenkins",
-          "level": 85
-        },
-        {
-          "name": "Git",
-          "level": 90
-        },
-        {
-          "name": "GitHub",
-          "level": 79
-        },
-        {
-          "name": "Apache Kafka",
-          "level": 79
-        },
-        {
-          "name": "RabbitMQ",
-          "level": 81
-        },
-        {
-          "name": "Selenium",
-          "level": 76
-        },
-        {
-          "name": "JUnit",
-          "level": 81
-        },
-        {
-          "name": "Postman",
-          "level": 76
-        },
-        {
-          "name": "Splunk",
-          "level": 77
-        }
-      ]
-    },
-    {
-      "name": "Technical",
+      "name": "Frontend",
       "color": "#a78bfa",
       "icon": "palette",
-      "skills": [
-        {
-          "name": "REST APIs",
-          "level": 82
-        },
-        {
-          "name": "GraphQL",
-          "level": 75
-        },
-        {
-          "name": "Microservices",
-          "level": 89
-        },
-        {
-          "name": "Serverless Architecture",
-          "level": 92
-        },
-        {
-          "name": "CI/CD Pipelines",
-          "level": 89
-        },
-        {
-          "name": "Event-Driven Architecture",
-          "level": 88
-        },
-        {
-          "name": "Distributed Systems",
-          "level": 78
-        },
-        {
-          "name": "Authentication & Authorization",
-          "level": 75
-        },
-        {
-          "name": "CRUD Operations",
-          "level": 75
-        },
-        {
-          "name": "Caching",
-          "level": 93
-        },
-        {
-          "name": "API Performance Optimization",
-          "level": 91
-        },
-        {
-          "name": "Manual & Automation Testing",
-          "level": 83
-        },
-        {
-          "name": "Regression Testing",
-          "level": 92
-        },
-        {
-          "name": "Log Analysis",
-          "level": 87
-        },
-        {
-          "name": "Root Cause Analysis",
-          "level": 89
-        },
-        {
-          "name": "Production Issue Resolution",
-          "level": 84
-        },
-        {
-          "name": "Agile Development",
-          "level": 88
-        },
-        {
-          "name": "Sprint Planning",
-          "level": 78
-        },
-        {
-          "name": "Code Reviews",
-          "level": 84
-        },
-        {
-          "name": "Cross-Functional Collaboration",
-          "level": 78
-        },
-        {
-          "name": "Analytical Problem Solving",
-          "level": 82
-        },
-        {
-          "name": "Technical Leadership",
-          "level": 92
-        },
-        {
-          "name": "Requirements Analysis",
-          "level": 93
-        },
-        {
-          "name": "Communication",
-          "level": 90
-        }
+      "note": "Responsive interfaces and shared component systems.",
+      "items": [
+        "React.js",
+        "Angular",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Data & Cloud",
+      "color": "#f97316",
+      "icon": "cloud",
+      "note": "Relational, document and key-value stores on AWS.",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Amazon DynamoDB",
+        "Cassandra",
+        "Redis",
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon S3",
+        "API Gateway",
+        "IAM"
+      ]
+    },
+    {
+      "name": "Architecture & Delivery",
+      "color": "#22d3ee",
+      "icon": "server",
+      "note": "How the pieces fit together, and how they reach production.",
+      "items": [
+        "Microservices",
+        "Event-Driven Architecture",
+        "Serverless",
+        "Distributed Systems",
+        "Docker",
+        "Jenkins",
+        "CI/CD Pipelines",
+        "Git",
+        "JUnit",
+        "Splunk"
       ]
     }
   ]
