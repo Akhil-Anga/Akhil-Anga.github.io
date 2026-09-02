@@ -464,14 +464,18 @@
           '</div>';
       }
 
+      const brandHtml = pos.logoUrl
+        ? `<div class="exp-card-logo"><img src="${pos.logoUrl}" alt="${pos.company} logo" loading="lazy"></div>`
+        : `<div class="exp-card-icon">
+            <div class="exp-card-icon-glow"></div>
+            ${icon(expIcons[idx % expIcons.length])}
+          </div>`;
+
       card.innerHTML = `
         <div class="exp-card-glass"></div>
         <div class="exp-card-gradient-border"></div>
         <div class="exp-card-inner">
-          <div class="exp-card-icon">
-            <div class="exp-card-icon-glow"></div>
-            ${icon(expIcons[idx % expIcons.length])}
-          </div>
+          ${brandHtml}
           <div class="exp-card-title">${pos.title}</div>
           <div class="exp-card-meta">
             <span class="exp-card-company">${pos.company}</span>
@@ -512,7 +516,7 @@
 
       let imgContent = '';
       if (proj.imageUrl) {
-        imgContent = `<img src="${proj.imageUrl}" alt="${proj.name}">`;
+        imgContent = `<img src="${proj.imageUrl}" alt="${proj.name}" loading="lazy" decoding="async">`;
       } else {
         imgContent = `<div class="project-card-image-placeholder">${icon('laptop')}</div>`;
       }
@@ -583,12 +587,16 @@
 
       const dateStr = [edu.startDate, edu.endDate].filter(Boolean).join(' - ');
 
+      const eduBadge = edu.logoUrl
+        ? `<span class="edu-card-logo"><img src="${edu.logoUrl}" alt="${edu.institution} logo" loading="lazy"></span>`
+        : icon('bookOpen', 'edu-card-institution-icon');
+
       card.innerHTML = `
         <div class="edu-card-header">
           <span class="edu-card-emoji">${mascots[idx % mascots.length]}</span>
           <h3 class="edu-card-degree">${edu.degree}</h3>
         </div>
-        <div class="edu-card-institution">${icon('bookOpen', 'edu-card-institution-icon')} ${edu.institution}</div>
+        <div class="edu-card-institution">${eduBadge} ${edu.institution}</div>
         ${dateStr ? `<div class="edu-card-dates">${icon('calendar')} ${dateStr}</div>` : ''}
         ${edu.description ? `<p class="edu-card-description">${edu.description}</p>` : ''}
         ${achieveHtml}

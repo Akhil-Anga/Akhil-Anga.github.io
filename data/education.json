@@ -11,7 +11,8 @@
       "gpa": "",
       "description": "",
       "achievements": [],
-      "skills": []
+      "skills": [],
+      "logoUrl": "assets/img/logos/university-at-buffalo.svg"
     },
     {
       "degree": "Bachelor of Technology",
@@ -22,7 +23,8 @@
       "gpa": "",
       "description": "",
       "achievements": [],
-      "skills": []
+      "skills": [],
+      "logoUrl": "assets/img/logos/srkr.png"
     }
   ],
   "certifications": [

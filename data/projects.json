@@ -14,7 +14,7 @@
         "Docker",
         "AWS"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/enterprise-customer-management-platform.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#5196fd"
@@ -31,7 +31,7 @@
         "DynamoDB",
         "Kafka"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/cloud-order-processing-system.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#8f89ff"
@@ -48,7 +48,7 @@
         "Jenkins",
         "Git"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/enterprise-employee-portal.webp",
       "liveUrl": "",
       "githubUrl": "",
       "color": "#34d399"
@@ -60,7 +60,7 @@
         "Python",
         "Dockerfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/dmql-project.webp",
       "liveUrl": "https://github.com/Akhil-Anga/DMQL-Project",
       "githubUrl": "https://github.com/Akhil-Anga/DMQL-Project",
       "color": "#ed649e"
@@ -73,7 +73,7 @@
         "CSS",
         "HTML"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/pulseboard-ops.webp",
       "liveUrl": "https://github.com/Akhil-Anga/pulseboard-ops",
       "githubUrl": "https://github.com/Akhil-Anga/pulseboard-ops",
       "color": "#f97316"
@@ -87,7 +87,7 @@
         "Dockerfile",
         "HTML"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/mern-chat-app.webp",
       "liveUrl": "https://github.com/Akhil-Anga/mern-chat-app",
       "githubUrl": "https://github.com/Akhil-Anga/mern-chat-app",
       "color": "#facc15"
@@ -99,7 +99,7 @@
         "Python",
         "Dockerfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/spark-kafka-cassandra-pipeline.webp",
       "liveUrl": "https://github.com/Akhil-Anga/spark-kafka-cassandra-pipeline",
       "githubUrl": "https://github.com/Akhil-Anga/spark-kafka-cassandra-pipeline",
       "color": "#5196fd"
@@ -111,7 +111,7 @@
         "JavaScript",
         "HTML"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/mern-ecommerce-rishi.webp",
       "liveUrl": "https://github.com/Akhil-Anga/mern-ecommerce-rishi",
       "githubUrl": "https://github.com/Akhil-Anga/mern-ecommerce-rishi",
       "color": "#8f89ff"
@@ -123,7 +123,7 @@
         "Java",
         "Dockerfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/spring-boot-microservices-banking-application.webp",
       "liveUrl": "https://github.com/Akhil-Anga/spring-boot-microservices-banking-application",
       "githubUrl": "https://github.com/Akhil-Anga/spring-boot-microservices-banking-application",
       "color": "#34d399"
@@ -135,7 +135,7 @@
         "Python",
         "Dockerfile"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/agentgate.webp",
       "liveUrl": "https://github.com/Akhil-Anga/agentgate",
       "githubUrl": "https://github.com/Akhil-Anga/agentgate",
       "color": "#ed649e"
@@ -151,7 +151,7 @@
         "SCSS",
         "JavaScript"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/ecommerce-spring-reactjs.webp",
       "liveUrl": "https://github.com/Akhil-Anga/ecommerce-spring-reactjs",
       "githubUrl": "https://github.com/Akhil-Anga/ecommerce-spring-reactjs",
       "color": "#f97316"
@@ -163,7 +163,7 @@
         "JavaScript",
         "Python"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/real-time-analytics-alerting-engine.webp",
       "liveUrl": "https://github.com/Akhil-Anga/real-time-analytics-alerting-engine",
       "githubUrl": "https://github.com/Akhil-Anga/real-time-analytics-alerting-engine",
       "color": "#facc15"
@@ -172,7 +172,7 @@
       "name": "contribution-history",
       "description": "Generated GitHub contribution history",
       "technologies": [],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/contribution-history.webp",
       "liveUrl": "https://github.com/Akhil-Anga/contribution-history",
       "githubUrl": "https://github.com/Akhil-Anga/contribution-history",
       "color": "#5196fd"
@@ -181,7 +181,7 @@
       "name": "streamledger",
       "description": "Full-featured application built as a learning exercise",
       "technologies": [],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/streamledger.webp",
       "liveUrl": "https://github.com/Akhil-Anga/streamledger",
       "githubUrl": "https://github.com/Akhil-Anga/streamledger",
       "color": "#8f89ff"
@@ -190,7 +190,7 @@
       "name": "fraud-detection-system",
       "description": "This project will detect the online credit card frauds.",
       "technologies": [],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/fraud-detection-system.webp",
       "liveUrl": "https://github.com/Akhil-Anga/fraud-detection-system",
       "githubUrl": "https://github.com/Akhil-Anga/fraud-detection-system",
       "color": "#34d399"
@@ -203,7 +203,7 @@
         "CSS",
         "HTML"
       ],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/portfolio.webp",
       "liveUrl": "https://github.com/Akhil-Anga/Portfolio",
       "githubUrl": "https://github.com/Akhil-Anga/Portfolio",
       "color": "#ed649e"
@@ -212,7 +212,7 @@
       "name": "Atari",
       "description": "GitHub repository: Atari",
       "technologies": [],
-      "imageUrl": "",
+      "imageUrl": "assets/img/projects/atari.webp",
       "liveUrl": "https://github.com/Akhil-Anga/Atari",
       "githubUrl": "https://github.com/Akhil-Anga/Atari",
       "color": "#f97316"

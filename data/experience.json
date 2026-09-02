@@ -34,7 +34,8 @@
         "JUnit",
         "Jenkins",
         "CI/CD"
-      ]
+      ],
+      "logoUrl": "assets/img/logos/dxc.svg"
     },
     {
       "title": "Full Stack Web Developer",
@@ -64,7 +65,8 @@
         "Splunk",
         "Java",
         "Spring Boot"
-      ]
+      ],
+      "logoUrl": "assets/img/logos/trivedi.png"
     },
     {
       "title": "Senior Software Engineer",
@@ -100,7 +102,8 @@
         "Jenkins",
         "Git",
         "CI/CD"
-      ]
+      ],
+      "logoUrl": "assets/img/logos/trivedi.png"
     },
     {
       "title": "Software Engineer",
@@ -135,7 +138,8 @@
         "JUnit",
         "Postman",
         "JIRA"
-      ]
+      ],
+      "logoUrl": "assets/img/logos/cybage.png"
     }
   ]
 }
