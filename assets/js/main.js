@@ -374,6 +374,21 @@
 
     section.querySelector('.about-heading').textContent = data.heading || 'About Me';
 
+    // Portrait (the column collapses away when there is no photo)
+    const portrait = section.querySelector('.about-portrait');
+    if (data.avatarUrl) {
+      const alt = data.avatarAlt || 'Portrait photograph';
+      portrait.innerHTML = `
+        <div class="about-portrait-frame">
+          <picture>
+            ${data.avatarUrlWebp ? `<source srcset="${data.avatarUrlWebp}" type="image/webp">` : ''}
+            <img src="${data.avatarUrl}" alt="${alt}" width="720" height="720" loading="lazy" decoding="async">
+          </picture>
+        </div>`;
+    } else {
+      portrait.remove();
+    }
+
     // Roles as chips (deduped, order preserved)
     const rolesEl = section.querySelector('.about-roles');
     const roles = Array.isArray(data.roles)

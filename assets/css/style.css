@@ -921,6 +921,7 @@ input, textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .about-role {
@@ -1008,10 +1009,54 @@ input, textarea {
   font-weight: 500;
 }
 
+.about-portrait {
+  max-width: 320px;
+}
+
+.about-portrait-frame {
+  position: relative;
+  border-radius: var(--radius-2xl);
+  padding: 3px;
+  background: linear-gradient(150deg, var(--gradient-start), var(--gradient-end));
+  box-shadow: var(--shadow-card-hover);
+  transition: transform var(--transition-base);
+}
+
+.about-portrait-frame::after {
+  content: '';
+  position: absolute;
+  inset: -18%;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(96, 165, 250, 0.22), transparent 68%);
+  filter: blur(26px);
+  pointer-events: none;
+}
+
+.about-portrait-frame:hover {
+  transform: translateY(-4px);
+}
+
+.about-portrait-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: calc(var(--radius-2xl) - 3px);
+  background: var(--bg-glass);
+}
+
 @media (min-width: 860px) {
   .about-grid {
-    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-    gap: 4rem;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    gap: 3.5rem;
+  }
+
+  .about-portrait {
+    max-width: none;
+    position: sticky;
+    top: 7rem;
   }
 }
 
